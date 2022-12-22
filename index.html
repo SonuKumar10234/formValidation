@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <script src="https://kit.fontawesome.com/2881abc2a7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <form  id="signup" class="form">
+        <h3>Registration Form</h3>
+        <div class="form-field"> 
+            <label for="name"> Enter your Name</label>
+            <input type="text" name="name" id="name" autocomplete="off">
+            <i class="fa-solid fa-circle-check right"></i>
+            <i class="fa-solid fa-circle-exclamation wrong"></i>
+            <span class="span"></span>
+        </div>
+        <div class="form-field">
+            <label for="email"> Enter your Email</label>
+            <input type="text" name="email" id="email" autocomplete="off">
+            <i class="fa-solid fa-circle-check right"></i>
+            <i class="fa-solid fa-circle-exclamation wrong"></i>
+            <span class="span"></span>
+        </div>
+        <div class="form-field">
+            <label for="password"> Enter your Password</label>
+            <input type="password" name="password" id="password" autocomplete="off">
+            <i class="fa-solid fa-circle-check right"></i>
+            <i class="fa-solid fa-circle-exclamation wrong"></i>
+            <span class="span"></span>
+        </div>
+        <div class="form-field">
+            <label for="confirmPassword"> Confirm Password</label>
+            <input type="password" name="confirmPassword" id="confirmPassword" autocomplete="off">
+            <i class="fa-solid fa-circle-check right"></i>
+            <i class="fa-solid fa-circle-exclamation wrong"></i>
+            <span class="span"></span>
+        </div>
+
+        <input type="submit" value="Register" id="sumbit" >
+    </form>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
